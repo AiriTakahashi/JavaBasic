@@ -23,8 +23,14 @@ public class PTra01_07 {
 		// ※ 値は、好きな数字を入力してください
 
 
-
-
+bo=true;
+by=2;
+s=3;
+c='4';
+i=5;
+l=6L;
+f=7.8F;
+d=9.0;
 
 
 
@@ -32,6 +38,14 @@ public class PTra01_07 {
 
 		// ★ それぞれの変数の中身を出力してください
 
+System.out.println(bo);
+System.out.println(by);
+System.out.println(s);
+System.out.println(c);
+System.out.println(i);
+System.out.println(l);
+System.out.println(f);
+System.out.println(d);
 
 
 

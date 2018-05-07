@@ -9,13 +9,12 @@ package practice01;
 public class PTra01_06 {
 	public static void main(String[] args) {
 
-		// ★ 文字列を格納する変数 str を宣言してください
+		String str ;
 
+		str ="高橋愛里";
 
-		// ★ 変数 str に自分の名前を代入してください
+		System.out.println(str);
 
-
-		// ★ 変数 str の中身を出力してください
 
 
 	}
