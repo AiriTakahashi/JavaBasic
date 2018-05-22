@@ -17,5 +17,7 @@ public class PTra02_02 {
 		// ★ 以下のプログラムで40が出力されるようにしてください
 		num = 40;
 		System.out.println(num);	// ※※ この行は修正しないでください
+		int num1 = 40;
+		System.out.println(num1);
 	}
 }

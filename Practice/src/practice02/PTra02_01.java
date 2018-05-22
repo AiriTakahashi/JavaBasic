@@ -10,6 +10,7 @@ public class PTra02_01 {
 	public static void main(String[] args) {
 
 		// ★ 20を5で割った値を出力してください
+		System.out.println(20/5);
 
 		System.out.println(20/5);
 
