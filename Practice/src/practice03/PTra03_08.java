@@ -35,6 +35,16 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		if(num==1) {
+			money=(1000-150);
+			System.out.println(money);
+		}else if(num==2) {
+			money=(1000-160);
+			System.out.println(money);
+		}else if(num==3) {
+			money=(1000-200);
+			System.out.println(money);
+		}
 	}
 }
+
