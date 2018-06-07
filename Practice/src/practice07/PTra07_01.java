@@ -1,4 +1,3 @@
-
 package practice07;
 /*
  * PTra07_01.java
@@ -11,7 +10,7 @@ public class PTra07_01 {
 	public static void main(String[] args) {
 
 		// ★ int型の配列arrayを宣言してください
-		int[] array;
+		int[]array;
 
 		// ★ 変数arrayの配列を5個の領域で確保してください
 		array=new int[5];
@@ -23,11 +22,10 @@ public class PTra07_01 {
 		array[3]=10;
 		array[4]=13;
 
+
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		System.out.println(array[0]);
-		System.out.println(array[1]);
-		System.out.println(array[2]);
-		System.out.println(array[3]);
-		System.out.println(array[4]);
+		for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+		}
 	}
 }
