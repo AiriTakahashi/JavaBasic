@@ -9,11 +9,11 @@ package practice08;
 public class PTra08_02 {
 	public static void main(String[] args) {
 
-		int x = 100;
-		int y = 50;
+		int x1 = 100;
+		int y1 = 50;
 
 		// ★ 変数receiveを宣言して、averageメソッドを（変数x, 変数y）で呼び出した結果を代入してください
-		String receive=average(x,y);
+		String receive=average(x1,y1);
 
 		// ★ 変数receiveを出力してください
 		System.out.println(receive);
